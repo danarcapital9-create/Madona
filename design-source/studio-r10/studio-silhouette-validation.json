@@ -1,0 +1,15 @@
+{
+  "orthographic_projected_silhouette_iou_previous_asset": 0.9999200352876537,
+  "silhouette_difference_pixels": 31,
+  "projection_resolution": [
+    1640,
+    1640
+  ],
+  "exact_outer_contour_match_at_1e_6": true,
+  "outer_contour_vertex_counts": [
+    294,
+    294
+  ],
+  "approved_previous_asset_original_source_iou": 0.9882911538284239,
+  "contour_policy": "Approved 294-vertex contour preserved. Subpixel rasterization at intermediate bevel bands can produce isolated pixel differences."
+}

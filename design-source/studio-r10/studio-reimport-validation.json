@@ -1,0 +1,28 @@
+{
+  "blender_reimport_ok": true,
+  "blender_version": "4.5.13 LTS",
+  "mesh_count": 1,
+  "mesh_name": "Madonna_Signature",
+  "material_names": [
+    "Madonna_Ivory_Satin",
+    "Madonna_Pearl_Edge",
+    "Madonna_Emerald_Depth"
+  ],
+  "material_count": 3,
+  "reimport_blender_dimensions": [
+    4.563953399658203,
+    0.23000000417232513,
+    4.0
+  ],
+  "expected_blender_axes": "+Z up, -Y front",
+  "all_edges_two_faces": true,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "euler_characteristic": -10,
+  "genus_preserved": 6,
+  "signed_volume": 0.9687809687925039,
+  "triangles": 10604,
+  "finite_positions": true,
+  "normal_min_length": 0.999999855026534,
+  "normal_max_length": 1.0000001438893273
+}

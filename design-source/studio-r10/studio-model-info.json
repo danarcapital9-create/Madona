@@ -1,0 +1,34 @@
+{
+  "generator": "Blender 4.5.13 LTS, approved contour reconstructed as native editable mesh",
+  "mesh": "Madonna_Signature",
+  "front_axis": "+Z",
+  "up_axis": "+Y",
+  "dimensions": [
+    4.563953399658203,
+    4.0,
+    0.23000000417232513
+  ],
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "preserved_holes": 6,
+  "contour_vertices": 294,
+  "bevel_segments": 8,
+  "bevel_radial_inset": 0.0072,
+  "bevel_axial_radius": 0.026,
+  "triangle_count": 10604,
+  "vertex_count": 6140,
+  "glb_bytes": 245168,
+  "texture_count": 0,
+  "front_mapping_max_error": 1.9345925150856212e-07,
+  "materials": [
+    "Madonna_Ivory_Satin",
+    "Madonna_Pearl_Edge",
+    "Madonna_Emerald_Depth"
+  ],
+  "source_contour_unchanged": true,
+  "export_selection_only": true,
+  "backface_culling": true
+}
