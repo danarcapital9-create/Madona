@@ -1,0 +1,18 @@
+{
+  "path": "/workspace/scratch/cf5343858ed9/madonna-v2-assets/madonna-orchid.glb",
+  "bytes": 1016444,
+  "triangles": 49784,
+  "mesh_count": 15,
+  "root": "Orchid",
+  "front": "+Z",
+  "up": "+Y",
+  "petals": [
+    "petal_0",
+    "petal_1",
+    "petal_2",
+    "petal_3",
+    "petal_4"
+  ],
+  "width_approx": 4.1,
+  "height_approx": 4.0
+}

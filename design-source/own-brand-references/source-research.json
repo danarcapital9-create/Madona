@@ -1,0 +1,76 @@
+{
+  "status": "No verified original image bytes obtainable in this run; no image files downloaded.",
+  "source_account": {
+    "instagram": "https://www.instagram.com/madonna.blc/",
+    "facebook": "https://www.facebook.com/madonna.blc/",
+    "website": "https://www.madonnablc.com/"
+  },
+  "assets": [],
+  "candidates": [
+    {
+      "category": "nails",
+      "source": "https://www.instagram.com/p/C-0WFbtsyY7/",
+      "published": "2024-08-18",
+      "caption": "Fade into fabulous with our shining pink nails!",
+      "source_confidence": "High: indexed post identifies madonna.blc and salon phone 0795222719.",
+      "pixels_verified": false,
+      "dimensions": null,
+      "downloaded": false
+    },
+    {
+      "category": "lashes",
+      "source": "https://www.instagram.com/p/DX9Ne3BjPhq/",
+      "published": "2026-05-05",
+      "caption": "Lashes that speak louder than words",
+      "source_confidence": "High: indexed post identifies madonna.blc and salon phone 07 9522 2719.",
+      "pixels_verified": false,
+      "dimensions": null,
+      "downloaded": false
+    },
+    {
+      "category": "makeup",
+      "source": "https://www.instagram.com/reel/DVY28aijIeU/",
+      "published": "2026-03-02",
+      "caption": "Eyes that rule kingdoms. #madonna #amman #makeup #glam #beauty",
+      "source_confidence": "High: indexed reel identifies madonna.blc. Candidate is video; would require a source frame.",
+      "pixels_verified": false,
+      "dimensions": null,
+      "downloaded": false
+    },
+    {
+      "category": "care",
+      "source": "https://www.instagram.com/reel/DYjzoL6s-Zg/",
+      "published": "2026-05-20",
+      "caption": "Treat yourself to the luxury of paraffin therapy for deep hydration, silky skin",
+      "source_confidence": "High: indexed reel identifies madonna.blc. Candidate is video; would require a source frame.",
+      "pixels_verified": false,
+      "dimensions": null,
+      "downloaded": false
+    },
+    {
+      "category": "makeup alternate",
+      "source": "https://www.facebook.com/madonna.blc/videos/luxury-in-every-brush-stroke-madonna-amman-makeupartist-beauty-lovely/2970273786651140/",
+      "published": "2026-06-16",
+      "caption": "Luxury in every brush stroke",
+      "source_confidence": "High: URL belongs to named official account. Candidate is video; would require a source frame.",
+      "pixels_verified": false,
+      "dimensions": null,
+      "downloaded": false
+    }
+  ],
+  "gaps": [
+    "No original service photo downloaded or visually inspected.",
+    "No verified hair-specific post found.",
+    "No verified brand portrait found.",
+    "Candidate captions do not certify the appearance or ownership of individual depicted photos."
+  ],
+  "access_findings": [
+    "Instagram/Facebook web open: Online fetch throttled / DisabledError.",
+    "Image search: no exact account imagery; all unrelated salon results rejected.",
+    "Existing public website JS lists only logo and hero background, no service photo gallery.",
+    "Madonna_Brand_Kit.zip found in Library but authenticated download helper failed HTTP 502 twice.",
+    "Direct public website request HTTP 403; public PNG opens returned non-retryable error.",
+    "Plugin search found marketing/analytics integrations; none installed with suitable original-photo access."
+  ],
+  "prohibited_substitutes": "Do not use the previous /workspace/scratch/madonna-service-assets Pexels images as Madonna-owned work."
+}

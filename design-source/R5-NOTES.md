@@ -1,0 +1,13 @@
+# Madonna R5 — mobile rendering and separate administration
+
+The customer entry is `/`, with `/book` retained. Neither exposes an administration link. `/desk` is the authenticated management entry and the standalone PWA scope. Its manifest, icons and install control are administration-only. The same existing salon workspace is selected by the server-side `MADONNA_WORKSPACE_ID`; staff authorization uses the server-side `MADONNA_ADMIN_EMAIL` allowlist and platform-verified identity headers. Existing data is preserved. Deployment remains owner-private.
+
+`/api/booking` returns active services and anonymous occupied intervals. A booking submission returns only its own receipt. `/api/workspace` requires the administrator identity and returns the full administrative state. Atomic booking conflict checks and idempotent submission are preserved. Demo appointments no longer auto-seed on page load.
+
+Foreground administration refreshes every five seconds while visible and online; a same-origin BroadcastChannel accelerates updates from another open tab. No external messages, background push notifications or offline writes are implemented. The service worker caches only a generic offline page and brand icons, never API data or authenticated HTML. Installation availability depends on browser support and secure origin.
+
+Scroll updates now write a shared phase ref and CSS variables instead of updating the entire React journey. Adaptive render resolution starts at DPR 1.5, up to 1.75 mobile/2 desktop with sustained frame headroom. Interactive animation uses rAF without the previous mobile 32ms gate; decorative idle motion remains throttled. Satin normals are analytic; mesh subdivisions are lower. Photo surfaces use one transparency pass and pre-upload all five textures. Shadow regeneration is less frequent. The original 3D orchid asset is preserved.
+
+The generated closing portrait has been removed from the experience and replaced with a composition of the actual published logo. The five service images remain clearly labelled representative photographs. Original Madonna Instagram/Facebook media could not be downloaded: requests were blocked/throttled and the earlier brand kit download failed. Candidate original post URLs and gaps are recorded in `own-brand-references/source-research.json`. Actual source files from the user are needed to replace these photographs; no stock photographs are represented as Madonna's work.
+
+Validation: production build, TypeScript check, server-rendered entry/manifest/access smoke tests, booking/authorization/redaction tests, PWA cache contract and render quality/analytic derivative tests. No browser or physical-device performance measurement was requested or performed for this revision; no FPS claim is made.

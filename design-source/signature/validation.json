@@ -1,0 +1,10 @@
+{
+  "watertight": true,
+  "winding_consistent": true,
+  "outward_normals": true,
+  "volume": 0.9715291305113339,
+  "genus": 6,
+  "source_silhouette_iou": 0.9882911538284239,
+  "shape_difference_pixels": 1524,
+  "source_pixels": 129347
+}

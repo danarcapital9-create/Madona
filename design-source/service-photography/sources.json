@@ -1,0 +1,68 @@
+{
+  "usage": "Illustrative stock photography; not Madonna Beauty Lounge client results or premises.",
+  "license": "Pexels License",
+  "licenseUrl": "https://www.pexels.com/license/",
+  "licenseNotes": "Free for website and commercial marketing use. Attribution not required. Cropping/modification permitted. Do not imply endorsement or claim people pictured are Madonna clients.",
+  "assets": [
+    {
+      "category": "nails",
+      "file": "nails.jpg",
+      "photographer": "Andrea Mosti",
+      "source": "https://www.pexels.com/photo/woman-getting-a-manicure-16041438/",
+      "image": "https://images.pexels.com/photos/16041438/pexels-photo-16041438.jpeg?auto=compress&cs=tinysrgb&w=1500",
+      "subject": "Close-up of nude pink manicure being polished",
+      "width": 1500,
+      "height": 1875,
+      "objectPosition": "50% 50%",
+      "inspected": true
+    },
+    {
+      "category": "eyelash extensions",
+      "file": "lashes.jpg",
+      "photographer": "Nataliya Vaitkevich",
+      "source": "https://www.pexels.com/photo/hands-putting-cosmetic-eyelashes-on-client-s-eye-5128235/",
+      "image": "https://images.pexels.com/photos/5128235/pexels-photo-5128235.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "subject": "Close-up of eyelash extension application with precision tweezers and eye pad",
+      "width": 1200,
+      "height": 1800,
+      "objectPosition": "50% 60%",
+      "inspected": true
+    },
+    {
+      "category": "makeup",
+      "file": "makeup.jpg",
+      "photographer": "Chalo Garcia",
+      "source": "https://www.pexels.com/photo/makeup-artist-brushing-woman-s-face-7510157/",
+      "image": "https://images.pexels.com/photos/7510157/pexels-photo-7510157.jpeg?auto=compress&cs=tinysrgb&w=1500",
+      "subject": "Makeup artist applying foundation with a brush to a woman's face",
+      "width": 1500,
+      "height": 2250,
+      "objectPosition": "50% 30%",
+      "inspected": true
+    },
+    {
+      "category": "hair styling",
+      "file": "hair.jpg",
+      "photographer": "Ron Lach",
+      "source": "https://www.pexels.com/photo/hairdresser-curling-clients-hair-10318043/",
+      "image": "https://images.pexels.com/photos/10318043/pexels-photo-10318043.jpeg?auto=compress&cs=tinysrgb&w=1500",
+      "subject": "Hairdresser curling a client's brown hair using a curling iron",
+      "width": 1500,
+      "height": 2250,
+      "objectPosition": "45% 52%",
+      "inspected": true
+    },
+    {
+      "category": "skincare / spa",
+      "file": "skincare-closeup.jpg",
+      "photographer": "Midtrack -",
+      "source": "https://www.pexels.com/photo/woman-getting-a-face-mask-done-14996840/",
+      "image": "https://images.pexels.com/photos/14996840/pexels-photo-14996840.jpeg?auto=compress&cs=tinysrgb&w=1500",
+      "subject": "Close-up of green facial mask being applied with a brush",
+      "objectPosition": "50% 50%",
+      "width": 1500,
+      "height": 2248,
+      "inspected": true
+    }
+  ]
+}

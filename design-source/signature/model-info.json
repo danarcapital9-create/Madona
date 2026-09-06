@@ -1,0 +1,35 @@
+{
+  "source": "/workspace/sites/madonna-lounge/public/brand/logo.png",
+  "source_size_px": [
+    1480,
+    1357
+  ],
+  "source_monogram_bbox_px": [
+    356,
+    92,
+    1141,
+    780
+  ],
+  "tracing_max_deviation_px": 0.9,
+  "components": 1,
+  "preserved_holes": 6,
+  "contour_vertices": 294,
+  "dimensions": [
+    4.563953399658203,
+    4.0,
+    0.23000000417232513
+  ],
+  "vertex_count": 3364,
+  "triangle_count": 5900,
+  "glb_bytes": 117920,
+  "front_axis": "+Z",
+  "up_axis": "+Y",
+  "bevel_radius": 0.0072,
+  "bevel_segments": 4,
+  "materials": [
+    "Warm ivory ceramic \u2014 face",
+    "Pale champagne satin \u2014 rounded rim and sides"
+  ],
+  "source_shape_area": 4.229059626825314,
+  "inset_face_area": 3.887078933859991
+}

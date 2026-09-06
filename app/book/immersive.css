@@ -1,0 +1,77 @@
+/* R7: a continuous emerald light field, with independent, legible content planes. */
+.madonna-journey{isolation:isolate;position:relative;background:#023222}
+.living-silk{position:fixed;inset:0;width:100%;height:100lvh;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at 27% 45%,#194a32,#002619 70%)}
+.madonna-journey .signature-hero,.madonna-journey .signature-pin{background:transparent}
+.signature-pin::before{background:linear-gradient(90deg,transparent 30%,#001b1266);opacity:1}
+.signature-watermark{position:absolute;bottom:-.19em;left:2%;right:2%;font:clamp(180px,23vw,440px) 'Madonna Serif',Georgia,serif;color:#F5E8D80A;line-height:1;letter-spacing:-.055em;z-index:-1;pointer-events:none;transform:translateX(calc(var(--signature-phase)*-4%))}
+.signature-art-caption{font-size:19px;bottom:7%;color:#E5D8B8B3}
+.madonna-journey .signature-visual{margin-left:-8%;margin-right:-5%}
+.madonna-journey .signature-copy{padding-left:9%}.madonna-journey .signature-copy h1,.madonna-journey .signature-copy h2{font-size:clamp(55px,5.8vw,96px)}
+.signature-book{box-shadow:0 8px 34px #001a1822}
+.madonna-journey .ritual-gallery-spatial{background:#02322233;isolation:isolate}
+.madonna-journey .ritual-gallery-spatial .ritual-visual{background:transparent}
+.ritual-gallery-spatial .ritual-selector{background:linear-gradient(90deg,transparent,#02322255)}
+.ritual-list{border-top:1px solid #F5E8D830}
+.ritual-row{display:flex;align-items:center;gap:16px;border-bottom:1px solid #F5E8D82A;transition:background .25s ease;padding:0 12px}
+.ritual-row.active{background:#F5E8D80B}
+.ritual-list .ritual-preview{display:flex;align-items:center;gap:17px;flex:1;min-width:0;text-align:right;padding:20px 0;background:none;border:0;color:#F5E8D8;cursor:pointer}
+.ritual-list .ritual-action{width:48px;height:48px;flex:0 0 48px;border:1px solid #F5E8D850;color:#F5E8D8;background:transparent;cursor:pointer}
+.ritual-row.active .ritual-action,.ritual-list .ritual-action:hover{background:#F5E8D8;color:#023222;border-color:#F5E8D8;transform:translate(-2px,-2px)}
+.ritual-row.active .ritual-titles strong,.ritual-row:hover .ritual-titles strong{color:#F5E8D8}
+.ritual-row .ritual-titles small{font-size:14px;color:#B3C4A6}.ritual-row .ritual-titles strong{color:#A3B799}
+.ritual-gallery-spatial .ritual-image-credit{font-size:12px;color:#AEC0A8}
+.madonna-journey .place-section{background:#F5E8D8EB;isolation:isolate}
+.place-section::before{content:'';position:absolute;inset:-35%;background:linear-gradient(112deg,transparent 35%,#fffaf33b 42%,transparent 51%);transform:translateX(-10%);animation:madonnaLightPass 16s ease-in-out infinite alternate;pointer-events:none;z-index:-1}
+.madonna-journey .closing-portrait{background:transparent;isolation:isolate}
+.madonna-journey .closing-portrait::after{background:linear-gradient(90deg,#00281dbb,transparent 90%);pointer-events:none;z-index:-1}
+.madonna-journey .closing-portrait>img.closing-monogram{animation:madonnaSignatureFloat 12s ease-in-out infinite;transform-origin:72% 50%}
+.madonna-journey .atelier-footer{background:#002a1ee0}
+@keyframes madonnaLightPass{to{transform:translateX(13%) rotate(6deg)}}
+@keyframes madonnaSignatureFloat{0%,100%{transform:perspective(1200px) rotateY(-7deg) translateY(0)}50%{transform:perspective(1200px) rotateY(5deg) translateY(-13px)}}
+.motion-paused .place-section::before,.motion-paused .closing-portrait>img.closing-monogram,.journey-covered .place-section::before,.journey-covered .closing-portrait>img.closing-monogram{animation-play-state:paused}
+@media(max-width:767px){
+ .signature-pin::before{background:linear-gradient(180deg,#001e1233,transparent 65%)}
+ .madonna-journey .signature-copy{padding:22px 0 0}.madonna-journey .signature-copy h1,.madonna-journey .signature-copy h2{font-size:clamp(36px,10.5vw,47px)}
+ .madonna-journey .signature-visual{margin:0 -22px}.signature-watermark{font-size:31vw;bottom:16%;left:-2%;opacity:.65;transform:translateY(calc(var(--signature-phase)*-20px))}
+ .madonna-journey .ritual-gallery-spatial{background:transparent}.ritual-gallery-spatial .ritual-selector{background:none}
+ .madonna-journey .ritual-mobile-tabs{margin-bottom:0}.madonna-journey .ritual-selection-note{font-size:14px;line-height:1.8}
+ .madonna-journey .place-section{background:#F5E8D8EB}.madonna-journey .closing-portrait>img.closing-monogram{opacity:.19}
+}
+@media(max-width:767px) and (max-height:700px){.madonna-journey .signature-copy{padding-top:15px}.madonna-journey .signature-copy h1,.madonna-journey .signature-copy h2{font-size:38px}}
+@media(prefers-reduced-motion:reduce){.place-section::before,.madonna-journey .closing-portrait>img.closing-monogram{animation:none}.signature-watermark{transform:none}}
+
+/* A short contact step. Verification stays in the same form and preserves input. */
+.booking-portal .verified-contact{display:grid;gap:22px;margin:24px 0}
+.booking-portal .verified-contact .form-grid{margin:0;gap:20px}
+.booking-portal .customer-form label{color:#315a40;font-size:16px}
+.booking-portal .customer-form input{border:1px solid #02322235;border-radius:0;background:#FFFAF13D;padding:16px;min-height:58px;color:#023222}
+.booking-portal .customer-form input:focus{outline:2px solid #527A77;outline-offset:3px}
+.booking-portal .customer-form input[readonly]{background:#02322209;color:#42664d}
+.contact-status{display:flex;align-items:center;gap:10px;font-size:14px;color:#527055}
+.contact-verified{display:flex;align-items:flex-start;gap:13px;padding:20px;background:#023222;color:#F5E8D8;border:1px solid #023222}
+.contact-verified svg{flex:0 0 auto;margin-top:2px}.contact-verified strong{display:block;font-weight:400;font-size:17px}.contact-verified p{font-size:14px;color:#C9D3BC;line-height:1.85;margin-top:5px}
+.contact-verification{border:1px solid #02322235;background:#EEE5D5;padding:23px;display:grid;gap:20px;color:#023222}
+.contact-code-heading{display:flex;align-items:flex-start;gap:12px}.contact-code-heading>svg{flex-shrink:0;margin-top:4px}.contact-code-heading>div{flex:1;min-width:0}.contact-code-heading strong{font-weight:400;font-size:18px;line-height:1.8}.contact-code-heading p{font-size:15px;line-height:1.8;color:#47664b;margin-top:3px}.contact-code-heading p[dir=ltr]{text-align:right;letter-spacing:1px}.contact-code-heading button{font-size:14px;min-height:44px;text-decoration:underline;color:#315a40}
+.contact-verification>p{font-size:15px;line-height:1.85;color:#47664b}
+.booking-portal .verify-button{min-height:50px;display:flex;align-items:center;justify-content:center;gap:11px;background:#023222;color:#F5E8D8;padding:12px 18px;font-size:15px;cursor:pointer;direction:rtl}
+.booking-portal .verify-button:disabled{opacity:.48;cursor:not-allowed}.booking-portal .verify-button:focus-visible{outline:2px solid #023222;outline-offset:4px}
+.contact-code-entry{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.contact-code-entry [data-slot=input-otp-group]{gap:7px}
+.contact-code-entry [data-slot=input-otp-slot]{width:42px;height:54px;background:#FFF8EB;border:1px solid #6A826855;border-radius:0!important;color:#023222;font:24px Arial,sans-serif}
+.contact-code-entry [data-slot=input-otp-slot][data-active=true]{border-color:#023222;outline:2px solid #527A77;outline-offset:2px;box-shadow:none}
+.contact-resend{display:flex;gap:12px;justify-content:space-between;align-items:center;font-size:14px;line-height:1.7}.contact-resend>span{color:#526842}.contact-resend button{min-height:44px;color:#023222;text-decoration:underline}.contact-resend button:disabled{color:#6D775F;text-decoration:none}
+.contact-error{padding:14px 16px;border:1px solid #9A443444;background:#F6DECF;color:#793827;font-size:15px;line-height:1.9}
+.booking-portal .contact-verification .contact-unavailable{padding-top:15px;border-top:1px solid #02322226;font-size:14px;color:#6b593b}
+.booking-portal .customer-form .booking-next{margin-top:24px}.booking-portal .booking-work{scroll-padding-top:28px}
+@media(max-width:767px){
+ .booking-portal .verified-contact{margin-top:20px;gap:18px}.booking-portal .verified-contact .form-grid{grid-template-columns:1fr;gap:18px}
+ .booking-portal .contact-verification{padding:19px 16px;gap:16px}.contact-code-heading{gap:10px}.contact-code-heading strong{font-size:17px}.contact-code-heading p{font-size:14px}
+ .contact-code-entry{justify-content:center;gap:17px}.contact-code-entry [data-slot=input-otp-group]{gap:6px}.contact-code-entry [data-slot=input-otp-slot]{width:36px;height:49px}.contact-code-entry .verify-button{width:100%}
+ .contact-code-heading button{font-size:13px}.contact-resend{font-size:13px;gap:8px}.contact-verified{padding:18px 16px}
+ .booking-portal .customer-form input{font-size:16px!important}.booking-portal .customer-form [data-slot=input-otp]{min-height:0;padding:0}
+}
+
+.madonna-journey .signature-stage-fallback{width:68%;height:66%;left:16%;top:17%}
+.madonna-journey .ritual-gallery-spatial .service-stage{background:transparent}
+
+.motion-paused .signature-watermark{transform:none}

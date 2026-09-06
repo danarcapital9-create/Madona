@@ -1,0 +1,13 @@
+{
+  "dimensions": [
+    1400,
+    1400
+  ],
+  "transparent_rgb_zero": true,
+  "png_webp_pixel_identical": true,
+  "webp_encoding": "exact lossless",
+  "alpha_levels": 256,
+  "empty_far_right_alpha_zero": true,
+  "composite_checked": "#023222",
+  "render_processing": "native antialiased alpha retained; rounded-to-zero alpha pixels have RGB hard-zeroed"
+}
