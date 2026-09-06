@@ -1,0 +1,163 @@
+/* R10 — The Madonna signature atelier. Scoped to the client journey. */
+.madonna-journey.studio-edition{--studio-ink:#023222;--studio-cream:#F5E8D8;--studio-sage:#B5C4AA;--studio-line:#F5E8D829}
+/* Soft reflected light is animated as two small compositor layers. */
+.living-silk{overflow:hidden;background:radial-gradient(ellipse at 24% 36%,#164832 0%,#023222 45%,#001e16 100%);contain:strict}
+.silk-light{position:absolute;display:block;pointer-events:none;width:80%;height:110%;top:-15%;border-radius:50%;opacity:.8;transform:translate3d(0,0,0);animation:silkDrift 22s ease-in-out infinite alternate}
+.silk-light-one{left:-34%;background:radial-gradient(ellipse,#80a66d25,transparent 64%);transform:rotate(-22deg)}
+.silk-light-two{right:-32%;top:10%;background:radial-gradient(ellipse,#a3b48517,transparent 65%);animation-delay:-11s;animation-duration:27s}
+.silk-weave{position:absolute;inset:0;background:repeating-linear-gradient(112deg,transparent 0 12%,#b3d0a506 16%,transparent 22% 36%);opacity:.5}
+.living-silk[data-moving=false] .silk-light{animation-play-state:paused}
+@keyframes silkDrift{to{transform:translate3d(17%,10%,0) rotate(12deg)}}
+/* First impression: a signature sculpture, uninterrupted type, one clear action. */
+.madonna-journey.studio-edition .signature-hero{height:158svh}
+.madonna-journey.studio-edition .signature-pin{height:100svh;min-height:680px;padding:0 6%;grid-template-columns:1.1fr 1fr;grid-template-rows:106px minmax(0,1fr) 110px 64px;column-gap:5%;overflow:clip}
+.madonna-journey.studio-edition .signature-header{border-color:var(--studio-line)}
+.madonna-journey.studio-edition .signature-logo{width:91px}
+.madonna-journey.studio-edition .signature-location{font-size:11px;letter-spacing:2.4px}
+.madonna-journey.studio-edition .signature-copy{padding:22px 0 0;align-self:center;z-index:2}
+.madonna-journey.studio-edition .signature-copy h1{font-size:clamp(64px,6.5vw,106px);font-weight:400;line-height:1.29;margin:25px 0 25px;letter-spacing:0}
+.madonna-journey.studio-edition .signature-copy em{color:#DED0B3}
+.madonna-journey.studio-edition .signature-copy p{font-size:18px;line-height:1.95;color:#CFD4BC;max-width:440px}
+.madonna-journey.studio-edition .signature-kicker{font-size:11px;letter-spacing:2.7px;display:flex;align-items:center;justify-content:flex-end;gap:12px;color:#DFD6BE}
+.signature-kicker i{display:inline-block;width:23px;height:1px;background:#D8CEB0}
+.madonna-journey.studio-edition .signature-visual{margin:0 -8% 0 -9%;perspective:1400px;overflow:visible}
+.signature-halo{position:absolute;inset:9% 5% 14%;border:1px solid #F5E8D824;border-radius:50%;transform:rotate(-12deg);background:radial-gradient(ellipse at 38% 25%,#CED1A008,transparent 65%);pointer-events:none}
+.signature-halo:before,.signature-halo:after{content:'';position:absolute;border-radius:50%;inset:5%;border:1px solid #F5E8D810}
+.signature-halo:after{inset:-7%;border-color:#F5E8D808}
+.signature-halo i{position:absolute;top:8%;left:23%;width:5px;height:5px;background:#E9DABA;border-radius:50%;box-shadow:0 0 15px #F5E8D8aa}
+.signature-halo b{position:absolute;bottom:8%;right:23%;width:4px;height:4px;background:#C1CCAC;border-radius:50%}
+.signature-halo span{position:absolute;inset:10%;border-radius:50%;background:radial-gradient(ellipse,#acc49808,transparent 70%)}
+.signature-object-note{position:absolute;left:4%;top:44%;writing-mode:vertical-rl;transform:rotate(180deg);font:10px Arial,sans-serif;letter-spacing:3px;color:#C0C9ADAA;pointer-events:none}
+.madonna-journey.studio-edition .signature-stage{inset:0;perspective:1000px}
+.madonna-journey.studio-edition .signature-stage-fallback{width:100%;height:100%;top:0;left:0;object-fit:contain;transform:rotateY(-3deg);filter:drop-shadow(8px 20px 17px #00180f55)}
+.madonna-journey.studio-edition .signature-art-caption{bottom:4%;font-size:22px;color:#DCCBAB}
+.madonna-journey.studio-edition .signature-actions{padding:0;gap:24px;align-self:start;flex-wrap:nowrap}
+.madonna-journey.studio-edition .signature-book{min-width:238px;min-height:60px;gap:28px;font-size:16px;padding:16px 23px;box-shadow:0 8px 32px #00160f20;transition:background .2s,transform .2s}
+.signature-book svg{transition:transform .3s}.signature-book:hover svg{transform:translate(-3px,-3px)}
+.madonna-journey.studio-edition .signature-explore{white-space:nowrap;font-size:13px}
+.madonna-journey.studio-edition .signature-watermark{font-size:25vw;bottom:-.2em;color:#F5E8D807;z-index:-1;transform:none}
+.madonna-journey.studio-edition .signature-progress b{transform:scaleX(.12)}
+.madonna-journey.studio-edition .signature-progress{width:170px;font-size:10px;letter-spacing:1.3px}
+.madonna-journey.studio-edition .signature-motto{font-size:17px}
+/* A second chapter carries the approved copy without fading the hero into illegibility. */
+.signature-bridge{position:relative;text-align:center;padding:100px 24px 90px;overflow:clip;background:linear-gradient(180deg,transparent,#001f1640)}
+.signature-bridge .atelier-kicker{font-size:10px;letter-spacing:3px;color:#B9C7AB}
+.signature-bridge h2{font-size:clamp(40px,4.8vw,74px);line-height:1.5;font-weight:400;margin:22px 0 16px}
+.signature-bridge-line{display:inline-block}.signature-bridge h2 em{font-style:normal;color:#DCC9A8}
+.signature-bridge p{color:#C1CBB3;font-size:17px;line-height:1.8;margin:0}
+.studio-scroll-thread{display:block;position:absolute;bottom:0;left:6%;right:6%;height:1px;background:#F5E8D83B;transform-origin:center}
+/* Photographs are touchable spatial cards. The page retains native vertical scroll. */
+.madonna-journey.studio-edition .ritual-gallery-spatial{grid-template-columns:1fr 1fr;min-height:850px;padding:55px 0 60px;background:transparent;color:var(--studio-cream)}
+.madonna-journey.studio-edition .ritual-gallery-spatial .ritual-visual{height:auto;min-height:760px;margin:0;overflow:clip}
+.madonna-journey.studio-edition .ritual-gallery-spatial .ritual-selector{padding:20px 12% 20px 8%;background:none}
+.madonna-journey.studio-edition .ritual-gallery-spatial .ritual-selector h2{font-size:clamp(32px,3.6vw,54px);line-height:1.65;letter-spacing:0}
+.madonna-journey.studio-edition .ritual-gallery-spatial .ritual-selector h2 em{color:#D0C4A7}
+.madonna-journey.studio-edition .ritual-overline{left:10%;right:10%;top:16px;font-size:10px;color:#BDC9AF;letter-spacing:2px}
+.madonna-journey.studio-edition .studio-photo-stage{position:absolute;inset:62px 0 76px;overflow:clip;background:none;touch-action:pan-y pinch-zoom;isolation:isolate}
+.service-photo-deck{position:absolute;inset:20px 0 90px;perspective:1300px;direction:ltr;transform-style:preserve-3d}
+.service-photo-card{position:absolute;top:0;bottom:0;left:16%;width:68%;height:100%;padding:0;background:#163d2c;border:1px solid #E4D4B877;overflow:hidden;transform-origin:center;backface-visibility:hidden;box-shadow:0 16px 30px #00150f33;cursor:pointer;touch-action:pan-y pinch-zoom}
+.service-photo-card img{display:block;width:100%;height:100%;object-fit:cover;user-select:none}
+.service-photo-edge{position:absolute;inset:0;box-shadow:inset 0 0 0 7px #F5E8D808;pointer-events:none;background:linear-gradient(180deg,transparent 70%,#001c1433)}
+.service-photo-invite{position:absolute;left:16px;bottom:16px;width:44px;height:44px;border:1px solid #F5E8D899;background:#02322280;color:#F5E8D8;border-radius:50%;display:grid;place-items:center}
+.service-photo-card:focus-visible{outline:2px solid #F5E8D8!important;outline-offset:5px!important}
+.madonna-journey.studio-edition .service-stage-navigation{bottom:8px;gap:23px;direction:ltr}
+.madonna-journey.studio-edition .service-stage-navigation button{width:48px;height:48px;cursor:pointer}
+.madonna-journey.studio-edition .ritual-caption-wrap{position:absolute;bottom:20px;left:12%;right:12%;display:flex;direction:ltr;align-items:center;justify-content:space-between;gap:15px;text-align:left;pointer-events:none;text-shadow:none}
+.madonna-journey.studio-edition .ritual-photo-label{font-size:clamp(40px,4.6vw,67px);line-height:1.1;letter-spacing:-1px;white-space:nowrap}
+.madonna-journey.studio-edition .ritual-visual-caption{font-size:15px!important;line-height:1.75;max-width:155px;text-align:right!important;margin:0!important;direction:rtl;color:#C9D1B9}
+.madonna-journey.studio-edition .ritual-row{padding:0 10px;gap:12px}
+.madonna-journey.studio-edition .ritual-preview{padding:15px 0;min-height:82px}
+.madonna-journey.studio-edition .ritual-titles strong{font-size:36px;color:#AABD9F}
+.madonna-journey.studio-edition .ritual-row.active .ritual-titles strong{color:#F5E8D8}
+.madonna-journey.studio-edition .ritual-row.active{background:linear-gradient(100deg,#F5E8D810,transparent)}
+.madonna-journey.studio-edition .ritual-intro{margin-bottom:26px}
+.studio-marquee{overflow:hidden;border-block:1px solid #F5E8D81C;padding:28px 0;background:#001e1433;direction:ltr}
+.studio-marquee-track{display:flex;align-items:center;gap:40px;width:max-content;font:clamp(38px,5vw,70px)/1.1 'Madonna Serif',Georgia,serif;white-space:nowrap;color:#D4D8C0;transform:translateX(-2%)}
+.studio-marquee-track svg{font:20px Georgia;color:#B6C7A0}.studio-marquee-track em{color:#DCC9A8}
+.madonna-journey.studio-edition .place-section{padding:90px 8%;gap:12%;background:#F5E8D8;color:#023222}
+.madonna-journey.studio-edition .place-heading h2{font-size:clamp(38px,4.5vw,64px);line-height:1.55;letter-spacing:0}
+.madonna-journey.studio-edition .place-options>button{padding:32px 0;min-height:140px}
+.madonna-journey.studio-edition .place-options small{font-size:15px;line-height:1.8}
+.madonna-journey.studio-edition .closing-portrait{height:650px}
+.madonna-journey.studio-edition .closing-portrait>img.closing-monogram{animation:none;left:auto;right:3%;opacity:.18;width:46%;height:70%;top:15%}
+.madonna-journey.studio-edition .closing-portrait h2{font-size:clamp(56px,6.4vw,92px);line-height:1.05}
+.madonna-journey.studio-edition .closing-portrait>div{left:8%;right:auto;top:16%;width:55%}
+/* Portrait tablets share the deliberate single-column composition, not a squeezed desktop. */
+@media(min-width:768px) and (max-width:1100px) and (orientation:portrait){
+ .madonna-journey.studio-edition .signature-pin{grid-template-columns:1fr;grid-template-areas:"head" "copy" "visual" "actions" "bottom";grid-template-rows:100px auto minmax(300px,1fr) 78px 58px;padding:0 7%;min-height:850px;column-gap:0}
+ .madonna-journey.studio-edition .signature-copy{text-align:center;padding:30px 0 0}.madonna-journey.studio-edition .signature-kicker{justify-content:center}
+ .madonna-journey.studio-edition .signature-copy h1{font-size:72px;line-height:1.25;margin:18px 0}.madonna-journey.studio-edition .signature-copy p{margin:auto;max-width:none}.signature-desktop-break{display:none}
+ .madonna-journey.studio-edition .signature-visual{margin:0 9%}.signature-object-note{left:2%;font-size:9px}.signature-halo{inset:4% 14% 8%}
+ .madonna-journey.studio-edition .signature-art-caption{display:none}.madonna-journey.studio-edition .signature-actions{justify-content:center;width:100%;align-self:center}
+ .madonna-journey.studio-edition .signature-book{min-width:340px}.madonna-journey.studio-edition .signature-watermark{font-size:32vw;bottom:14%}
+ .madonna-journey.studio-edition .ritual-gallery-spatial{display:flex;flex-direction:column;min-height:0;padding:48px 7%;gap:30px}
+ .madonna-journey.studio-edition .ritual-gallery-spatial .ritual-visual{height:670px;min-height:0;width:100%}.madonna-journey.studio-edition .ritual-gallery-spatial .ritual-selector{width:100%;padding:0}
+ .madonna-journey.studio-edition .ritual-gallery-spatial .ritual-selector h2{font-size:46px}.madonna-journey.studio-edition .ritual-list{display:grid;grid-template-columns:1fr 1fr;column-gap:20px}
+ .madonna-journey.studio-edition .ritual-row:last-child{grid-column:1/-1}.madonna-journey.studio-edition .ritual-intro{margin-bottom:20px}
+ .madonna-journey.studio-edition .ritual-caption-wrap{bottom:0}.madonna-journey.studio-edition .service-photo-card{left:21%;width:58%}
+ .madonna-journey.studio-edition .place-section{grid-template-columns:1fr;gap:25px;padding:64px 7%}.madonna-journey.studio-edition .place-options{margin:0}
+}
+@media(max-width:767px){
+ .madonna-journey.studio-edition .signature-hero{height:138svh}
+ .madonna-journey.studio-edition .signature-pin{height:100svh;min-height:640px;padding:0 24px;grid-template-columns:minmax(0,1fr);grid-template-rows:78px auto minmax(205px,1fr) 60px 48px;grid-template-areas:"head" "copy" "visual" "actions" "bottom";gap:0}
+ .madonna-journey.studio-edition .signature-header{direction:rtl}.madonna-journey.studio-edition .signature-logo{width:70px}.madonna-journey.studio-edition .signature-nav{font-size:14px;min-height:44px}
+ .madonna-journey.studio-edition .signature-copy{padding:27px 0 0;text-align:center;align-self:start}
+ .madonna-journey.studio-edition .signature-kicker{justify-content:center;font-size:9px;letter-spacing:2px;gap:10px}.signature-kicker i{width:17px}
+ .madonna-journey.studio-edition .signature-copy h1{font-size:clamp(43px,12.2vw,53px);line-height:1.22;margin:18px 0 14px}
+ .madonna-journey.studio-edition .signature-copy p{font-size:16px;line-height:1.8;max-width:310px;margin:0 auto}.signature-desktop-break{display:none}
+ .madonna-journey.studio-edition .signature-visual{margin:0 -14px;min-height:0;overflow:visible}.signature-halo{inset:7% 8% 8%;transform:rotate(-12deg)}
+ .signature-object-note{font-size:8px;letter-spacing:2px;left:3%;top:32%}.madonna-journey.studio-edition .signature-art-caption{display:none}
+ .madonna-journey.studio-edition .signature-stage-fallback{width:100%;height:100%;top:0;left:0}
+ .madonna-journey.studio-edition .signature-actions{padding:0;display:block;align-self:center}.madonna-journey.studio-edition .signature-book{width:100%;min-width:0;min-height:55px;font-size:16px;padding:14px 21px}
+ .madonna-journey.studio-edition .signature-explore{display:none}.madonna-journey.studio-edition .signature-motion{font-size:11px;min-height:44px}
+ .madonna-journey.studio-edition .signature-watermark{font-size:32vw;bottom:14%;opacity:.9}
+ .madonna-journey.studio-edition .signature-progress{width:90px}.signature-progress>span{display:none}.madonna-journey.studio-edition .signature-motto{display:none}
+ .signature-bridge{padding:64px 24px 57px}.signature-bridge .atelier-kicker{font-size:9px;letter-spacing:2px}.signature-bridge h2{font-size:38px;line-height:1.55;margin:18px 0 12px}.signature-bridge h2 span,.signature-bridge h2 em{display:block}.signature-bridge p{font-size:16px}
+ .madonna-journey.studio-edition .ritual-gallery-spatial{display:flex;flex-direction:column;padding:40px 0;gap:0;min-height:0}
+ .madonna-journey.studio-edition .ritual-gallery-spatial .ritual-visual{height:auto;min-height:0;margin:0;padding:0 24px;gap:18px;overflow:clip}
+ .madonna-journey.studio-edition .ritual-mobile-heading{font-size:31px;line-height:1.6;letter-spacing:0;margin:0}
+ .madonna-journey.studio-edition .ritual-overline{position:static;font-size:9px;letter-spacing:1.6px;color:#C1CFB5}
+ .madonna-journey.studio-edition .studio-photo-stage{position:relative;inset:auto;height:clamp(330px,92vw,395px);margin:0 -24px;background:none;min-height:0}
+ .service-photo-deck{inset:10px 0 14px;perspective:900px}
+ .madonna-journey.studio-edition .service-photo-card{left:19%;width:62%;border-color:#F5E8D86B}
+ .service-photo-invite{left:12px;bottom:12px;width:40px;height:40px}
+ .madonna-journey.studio-edition .service-stage-navigation{inset:0;justify-content:space-between;align-items:center;padding:0 10px;pointer-events:none}
+ .madonna-journey.studio-edition .service-stage-navigation button{pointer-events:auto;width:44px;height:44px;background:#023222D9;box-shadow:none}
+ .madonna-journey.studio-edition .service-stage-navigation>div{display:none}
+ .madonna-journey.studio-edition .ritual-caption-wrap{position:static;inset:auto;display:flex;gap:12px;align-items:center;text-align:left;margin:0;min-height:48px}
+ .madonna-journey.studio-edition .ritual-photo-label{font-size:39px;letter-spacing:-.8px}.madonna-journey.studio-edition .ritual-visual-caption{font-size:14px!important;max-width:150px}
+ .madonna-journey.studio-edition .ritual-mobile-tabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));position:static;inset:auto;padding:12px 0 0;gap:4px;margin:0;border-top:1px solid #F5E8D82B}
+ .madonna-journey.studio-edition .ritual-mobile-tabs button{font-size:13px;min-height:46px;padding:8px 2px}
+ .madonna-journey.studio-edition .ritual-gallery-spatial .ritual-selector{padding:20px 24px 0;width:100%;min-height:0}
+ .madonna-journey.studio-edition .ritual-gallery-spatial .ritual-selector h2,.madonna-journey.studio-edition .ritual-list{display:none}
+ .madonna-journey.studio-edition .ritual-selection-note{margin:0 0 16px}.madonna-journey.studio-edition .ritual-selection-note p{font-size:14px;line-height:1.8}
+ .madonna-journey.studio-edition .ritual-selector>.atelier-button{margin:0;min-height:54px;width:100%;font-size:15px}
+ .studio-marquee{padding:24px 0}.studio-marquee-track{font-size:42px;gap:26px}.studio-marquee-track svg{font-size:16px}
+ .madonna-journey.studio-edition .place-section{padding:52px 24px;display:block;min-height:0}.madonna-journey.studio-edition .place-heading h2{font-size:40px}.madonna-journey.studio-edition .place-options>button{padding:25px 0;min-height:130px}
+ .madonna-journey.studio-edition .place-options small{font-size:14px}.madonna-journey.studio-edition .place-options{margin-top:28px}
+ .madonna-journey.studio-edition .closing-portrait{height:540px}.madonna-journey.studio-edition .closing-portrait>div{top:60px;left:24px;right:24px;bottom:auto;width:auto}
+ .madonna-journey.studio-edition .closing-portrait h2{font-size:57px;line-height:1.09}.madonna-journey.studio-edition .closing-portrait>img.closing-monogram{right:-28%;left:auto;width:92%;height:70%;top:25%;opacity:.10}
+ .madonna-journey.studio-edition .closing-portrait .atelier-kicker{font-size:9px;letter-spacing:2px}.madonna-journey.studio-edition .portrait-footnote{left:24px;bottom:32px;font-size:10px;letter-spacing:2px}
+ .madonna-journey.studio-edition .atelier-footer{padding:32px 24px}.madonna-journey.studio-edition .atelier-footer small{font-size:12px;line-height:1.9}
+}
+@media(max-height:720px) and (min-width:768px),(min-width:768px) and (max-width:1100px) and (orientation:portrait) and (max-height:849px),(max-height:640px),(max-width:340px){
+ .madonna-journey.studio-edition .signature-hero{height:auto}
+ .madonna-journey.studio-edition .signature-pin{position:relative;height:auto;min-height:0;grid-template-columns:minmax(0,1fr);grid-template-rows:74px auto 310px auto 50px;grid-template-areas:"head" "copy" "visual" "actions" "bottom";padding:0 24px}
+ .madonna-journey.studio-edition .signature-copy{text-align:center;padding:24px 0 0}.madonna-journey.studio-edition .signature-copy h1{font-size:44px;line-height:1.3;margin:15px 0}.madonna-journey.studio-edition .signature-copy p{margin:auto;font-size:16px}.madonna-journey.studio-edition .signature-kicker{justify-content:center}
+ .madonna-journey.studio-edition .signature-visual{margin:0 auto;width:min(100%,430px);min-height:0}.madonna-journey.studio-edition .signature-actions{width:100%;max-width:430px;margin:auto;padding:0}.madonna-journey.studio-edition .signature-book{width:100%;min-width:0}.signature-desktop-break,.signature-object-note,.madonna-journey.studio-edition .signature-art-caption,.madonna-journey.studio-edition .signature-explore{display:none}
+}
+@media(prefers-reduced-motion:reduce){.silk-light{animation:none}.signature-bridge-line,.studio-marquee-track,.studio-scroll-thread{transform:none!important}.madonna-journey.studio-edition .signature-hero{height:auto}.madonna-journey.studio-edition .signature-pin{position:relative}.service-photo-card{transition:none}}
+/* Booking fixes preserve the approved photographic reservation design. */
+.booking-portal.booking-emerald .portal-close{min-width:44px!important;min-height:44px!important}
+.booking-portal.booking-emerald .dock-back{min-width:44px!important;min-height:44px!important}
+@media(max-width:767px){
+ .booking-portal.booking-emerald .day-choice{grid-template-columns:repeat(7,minmax(44px,1fr));gap:4px}
+ .booking-portal.booking-emerald .day-option{min-width:44px}
+ .booking-portal.booking-emerald .portal-close span{display:inline}
+}
+@media(min-width:768px) and (max-height:650px){
+ .booking-portal.booking-emerald .booking-work{padding-top:16px}
+ .booking-portal.booking-emerald .booking-intro{margin-bottom:14px}
+ .booking-portal.booking-emerald .mode-card{padding-top:12px;padding-bottom:12px}
+ .booking-portal.booking-emerald .service-tabs{margin-top:16px;margin-bottom:16px}
+}

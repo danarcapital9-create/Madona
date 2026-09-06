@@ -1,0 +1,25 @@
+{
+  "render": "Blender Cycles 128 samples, denoised",
+  "resolution": [
+    1400,
+    1400
+  ],
+  "transparent": true,
+  "gltf_rotation_xyz": [
+    0,
+    -0.28,
+    -0.055
+  ],
+  "maximum_projected_occupancy": 0.78,
+  "camera": "orthographic",
+  "note": "Fallback is a rendered still. CSS/GSAP can animate the plane; it is not real-time WebGL.",
+  "actual_alpha_bounds": [
+    166,
+    204,
+    1231,
+    1188
+  ],
+  "alpha_occupancy_width": 0.7607142857142857,
+  "alpha_occupancy_height": 0.7028571428571428,
+  "webp_bytes": 397580
+}
